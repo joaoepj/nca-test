@@ -1,0 +1,15 @@
+ [INFO] Calling create!
+ [INFO] Current uid: 0
+(((pid 27694) (thread_id 0)) "2019-09-29 18:40:56.090953657Z"
+ "unhandled exception in Async scheduler"
+ ("unhandled exception"
+  ((monitor.ml.Error
+    (Unix.Unix_error "Address already in use" bind
+     "((fd 7) (addr (ADDR_INET 0.0.0.0 9000)))")
+    ("Raised at file \"src/core_unix.ml\", line 50, characters 4-43"
+     "Called from file \"src/syscall.ml\", line 19, characters 12-16"
+     "Re-raised at file \"src/fd.ml\", line 262, characters 18-27"
+     "Called from file \"src/deferred1.ml\", line 20, characters 40-45"
+     "Called from file \"src/job_queue.ml\", line 159, characters 6-47"
+     "Caught by monitor Tcp.close_sock_on_error"))
+   ((pid 27694) (thread_id 3)))))

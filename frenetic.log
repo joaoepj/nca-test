@@ -1,0 +1,12 @@
+2019-09-30 08:03:36.926733-03:00 Info Calling create!
+2019-09-30 08:03:36.926744-03:00 Info Current uid: 1000
+2019-09-30 08:03:37.092898-03:00 Info Successfully launched OpenFlow controller with pid 2904
+2019-09-30 08:03:37.092902-03:00 Info Connecting to first OpenFlow server socket
+2019-09-30 08:03:37.093107-03:00 Info Failed to open socket to OpenFlow server: (Unix.Unix_error "Connection refused" connect 127.0.0.1:8984)
+2019-09-30 08:03:37.093109-03:00 Info Retrying in 1 second
+2019-09-30 08:03:38.093417-03:00 Info Failed to open socket to OpenFlow server: (Unix.Unix_error "Connection refused" connect 127.0.0.1:8984)
+2019-09-30 08:03:38.093419-03:00 Info Retrying in 1 second
+2019-09-30 08:03:39.093758-03:00 Info Failed to open socket to OpenFlow server: (Unix.Unix_error "Connection refused" connect 127.0.0.1:8984)
+2019-09-30 08:03:39.093759-03:00 Info Retrying in 1 second
+2019-09-30 08:03:40.094098-03:00 Info Failed to open socket to OpenFlow server: (Unix.Unix_error "Connection refused" connect 127.0.0.1:8984)
+2019-09-30 08:03:40.094099-03:00 Info Retrying in 1 second
